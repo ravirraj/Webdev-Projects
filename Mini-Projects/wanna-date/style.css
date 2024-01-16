@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.gif-img{
+    height: 150px;
+    width: 150px;
+}
+
+.info p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.btn-yes,.btn-no {
+    height: 40px;
+    width: 80px;
+    margin-left: 40px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    transition: 0.5s;
+    
+
+}
+
+
+.btn-yes:hover,.btn-no:hover {
+    background-color: pink;
+    box-shadow: 1px 1px 1px ;
+
+}
+.btn-yes{
+    right: 50%;
+}
+
